@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GSS GROUP - производственная компания</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome/all.min.css">
+    <link rel="shortcut icon" href="images/icon.png" type="images/icon.png">
+  </head>
+  <body>
+      <div type="button" class="callback-bt ">
+        <a href="tel:+77088642554" rel="nofollow">
+        <div class="text-call">
+            <i class="fa fa-phone"></i>
+            <span>Заказать<br>звонок</span>
+        </div>
+      </div>
+    <style media="screen">
+              /*кнопка звонка*/
+
+          .callback-bt {
+          background:#38a3fd;
+          border:2px solid #38a3fd;
+          border-radius:50%;
+          box-shadow:0 8px 10px rgba(56,163,253,0.3);
+          cursor:pointer;
+          height:68px;
+          text-align:center;
+          width:68px;
+          position: fixed;
+          right: 8%;
+          bottom: 18%;
+          z-index:999;
+          transition:.3s;
+          -webkit-animation:hoverWave linear 1s infinite;
+          animation:hoverWave linear 1s infinite;
+          }
+
+          .callback-bt .text-call{
+          height:68px;
+          width:68px;
+          border-radius:50%;
+          position:relative;
+          overflow:hidden;
+          }
+
+          .callback-bt .text-call span {
+          text-align: center;
+          color:#38a3fd;
+          opacity: 0;
+          font-size: 0;
+          position:absolute;
+          right: 4px;
+          top: 22px;
+          line-height: 14px;
+          font-weight: 600;
+          text-transform: uppercase;
+          transition: opacity .3s linear;
+          font-family: 'montserrat', Arial, Helvetica, sans-serif;
+          }
+
+          .callback-bt .text-call:hover span {
+          opacity: 1;
+          font-size: 11px;
+          }
+          .callback-bt:hover i {
+          display:none;
+          }
+
+          .callback-bt:hover {
+          z-index:1;
+          background:#fff;
+          color:transparent;
+          transition:.3s;
+          }
+          .callback-bt:hover i {
+          color:#38a3fd;
+          font-size:40px;
+          transition:.3s;
+          }
+          .callback-bt i {
+          color:#fff;
+          font-size:34px;
+          transition:.3s;
+          line-height: 66px;transition: .5s ease-in-out;
+          }
+
+          .callback-bt i  {
+          animation: 1200ms ease 0s normal none 1 running shake;
+          animation-iteration-count: infinite;
+          -webkit-animation: 1200ms ease 0s normal none 1 running shake;
+          -webkit-animation-iteration-count: infinite;
+          }
+
+          @-webkit-keyframes hoverWave {
+          0% {
+          box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 0 rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+          }
+          40% {
+          box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 15px rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+          }
+          80% {
+          box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 26.7px rgba(56,163,253,0.067)
+          }
+          100% {
+          box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 40px rgba(56,163,253,0.0)
+          }
+          }@keyframes hoverWave {
+          0% {
+          box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 0 rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+          }
+          40% {
+          box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 15px rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+          }
+          80% {
+          box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 26.7px rgba(56,163,253,0.067)
+          }
+          100% {
+          box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 40px rgba(56,163,253,0.0)
+          }
+          }
+
+          /* animations icon */
+
+          @keyframes shake {
+          0% {
+          transform: rotateZ(0deg);
+          -ms-transform: rotateZ(0deg);
+          -webkit-transform: rotateZ(0deg);
+          }
+          10% {
+          transform: rotateZ(-30deg);
+          -ms-transform: rotateZ(-30deg);
+          -webkit-transform: rotateZ(-30deg);
+          }
+          20% {
+          transform: rotateZ(15deg);
+          -ms-transform: rotateZ(15deg);
+          -webkit-transform: rotateZ(15deg);
+          }
+          30% {
+          transform: rotateZ(-10deg);
+          -ms-transform: rotateZ(-10deg);
+          -webkit-transform: rotateZ(-10deg);
+          }
+          40% {
+          transform: rotateZ(7.5deg);
+          -ms-transform: rotateZ(7.5deg);
+          -webkit-transform: rotateZ(7.5deg);
+          }
+          50% {
+          transform: rotateZ(-6deg);
+          -ms-transform: rotateZ(-6deg);
+          -webkit-transform: rotateZ(-6deg);
+          }
+          60% {
+          transform: rotateZ(5deg);
+          -ms-transform: rotateZ(5deg);
+          -webkit-transform: rotateZ(5deg);
+          }
+          70% {
+          transform: rotateZ(-4.28571deg);
+          -ms-transform: rotateZ(-4.28571deg);
+          -webkit-transform: rotateZ(-4.28571deg);
+          }
+          80% {
+          transform: rotateZ(3.75deg);
+          -ms-transform: rotateZ(3.75deg);
+          -webkit-transform: rotateZ(3.75deg);
+          }
+          90% {
+          transform: rotateZ(-3.33333deg);
+          -ms-transform: rotateZ(-3.33333deg);
+          -webkit-transform: rotateZ(-3.33333deg);
+          }
+          100% {
+          transform: rotateZ(0deg);
+          -ms-transform: rotateZ(0deg);
+          -webkit-transform: rotateZ(0deg);
+          }
+          }
+
+          @-webkit-keyframes shake {
+          0% {
+          transform: rotateZ(0deg);
+          -ms-transform: rotateZ(0deg);
+          -webkit-transform: rotateZ(0deg);
+          }
+          10% {
+          transform: rotateZ(-30deg);
+          -ms-transform: rotateZ(-30deg);
+          -webkit-transform: rotateZ(-30deg);
+          }
+          20% {
+          transform: rotateZ(15deg);
+          -ms-transform: rotateZ(15deg);
+          -webkit-transform: rotateZ(15deg);
+          }
+          30% {
+          transform: rotateZ(-10deg);
+          -ms-transform: rotateZ(-10deg);
+          -webkit-transform: rotateZ(-10deg);
+          }
+          40% {
+          transform: rotateZ(7.5deg);
+          -ms-transform: rotateZ(7.5deg);
+          -webkit-transform: rotateZ(7.5deg);
+          }
+          50% {
+          transform: rotateZ(-6deg);
+          -ms-transform: rotateZ(-6deg);
+          -webkit-transform: rotateZ(-6deg);
+          }
+          60% {
+          transform: rotateZ(5deg);
+          -ms-transform: rotateZ(5deg);
+          -webkit-transform: rotateZ(5deg);
+          }
+          70% {
+          transform: rotateZ(-4.28571deg);
+          -ms-transform: rotateZ(-4.28571deg);
+          -webkit-transform: rotateZ(-4.28571deg);
+          }
+          80% {
+          transform: rotateZ(3.75deg);
+          -ms-transform: rotateZ(3.75deg);
+          -webkit-transform: rotateZ(3.75deg);
+          }
+          90% {
+          transform: rotateZ(-3.33333deg);
+          -ms-transform: rotateZ(-3.33333deg);
+          -webkit-transform: rotateZ(-3.33333deg);
+          }
+          100% {
+          transform: rotateZ(0deg);
+          -ms-transform: rotateZ(0deg);
+          -webkit-transform: rotateZ(0deg);
+          }
+          }
+          /* конец кнопки звонка */
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" data-aos="fade-down" data-aos-delay="500">
+      <div class="container">
+        <!--<a class="navbar-brand" href="index.html">GSS</a>    images/logo.png -->
+
+
+        <nav class="navbar navbar-light ">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" width="90" height="80" alt="" >
+          </a>
+        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Меню
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Главная</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link">Услуги</a></li>
+            <ul >
+                  <li class="nav_menu_link_drop_2">
+                      <a class="nav_menu_link nav-link">Мебель <i class="arrow down"></i></a></li>
+                  <div id="content2" style="display: none;">
+                          <ul id="file_menu">
+                            <li><a href="locker.html">Шкафы</a></li>
+                            <li><a href="bed.html">Диваны</a></li>
+                            <li><a href="sofa.html">Кресла</a></li>
+                            <li><a href="chair.html">Столы</a></li>
+                            <li><a href="garden.html">Сад</a></li>
+                            <li><a href="bath.html">Баня</a></li>
+                          </ul>
+                  </div>
+              </ul>
+            <li class="nav-item"><a href="door.html" class="nav-link">Двери</a></li>
+            <li class="nav-item"><a href="pricing.html" class="nav-link">Бетонные изделия</a></li>
+            <li class="nav-item"><a href="plastic.html" class="nav-link">Пластик. и алюм. изд.</a></li>
+            <li class="nav-item"><a href="iron.html" class="nav-link">Изделия из металла</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">Цех</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+
+              <style type="text/css">
+              	 * {
+              margin: 0;
+              padding: 0;
+              }
+                  #nav_menu {
+                      position: absolute;
+                      display: block;
+                      height: 80px;
+                      width: 100%;
+                      background: orange;
+                  }
+                  #nav_menu li {
+                      list-style-type: none;
+                      text-decoration: none;
+                      vertical-align: middle;
+                      height: 80px;
+                      display: inline-block;
+                      position: relative;
+                  }
+                  .nav_menu_link {
+                      color: black;
+
+                      height: 0;
+
+                      vertical-align: baseline;
+                      position: relative;
+                      display: inline-block;
+                      height: auto;
+                      padding: 29px;
+                  }
+                  .nav_menu_link:hover {
+
+                      color: #FFF;
+                      transition: all .2s;
+                  }
+                  .nav_menu_link:hover .arrow.down {
+                      border-top-color: #FFF;
+                  }
+
+                  #content1:hover {
+                      display: block !important;
+                      width: 100%;
+                      height: auto !important;
+                      position: absolute;
+                  }
+                  #content2:hover {
+                      display: block !important;
+                      width: 100%;
+                      height: auto !important;
+                      position: absolute;
+                  }
+                  #content1, #content2 {
+                      width: 100%;
+                      height: auto;
+                      display: none;
+                      position: absolute;
+                  }
+
+                #file_menu{
+                  width: 100px;
+                  height: 100px;
+                  display: inline-block;
+                }
+              	#file_menu li {
+              	    width: 100%;
+              	    height: 30px;
+              	    background-color: white;
+              	}
+
+              	#file_menu li a {
+              	    color:black;
+
+              	    text-decoration:none;
+              	    padding:5px 10px;
+              	    display:block;
+              	}
+
+              	#file_menu li a:hover {
+              	    color: #0962ea;
+              	}
+                li {
+                list-style-type: none; /* Убираем маркеры */
+               }
+               ul {
+                margin-left: 0; /* Отступ слева в браузере IE и Opera */
+                padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+               }
+              </style>
+            </ul>
+          </div>
+        </div>
+  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel">
+
+
+      <div class="slider-item" style="background-image: url('images/bg_2.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center">
+            <div class="col-md-7 col-sm-12 ftco-animate">
+              <p><strong><a href="#">GSS GROUP</a></strong> - Производственная компания</p>
+              <h1 class="mb-3">Наша фабрика занимается производством эксклюзивной, корпусной мебели на заказ, а так же производит:<br><br>-Двери любой сложности (межкомнатные, входные, металлические и тд.). <br>-Пластиковые - алюминиевые изделия (окна, двери, витражи). <br>-Изделия из металла (ворота, оградки, скамейки т.д.). <br>-ЖБИ изделия (кольца, крышки, лотки).  </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END slider -->
+
+    <section class="ftco-counter" id="section-counter">
+      <div class="container bg-light">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="1000">1000</strong>
+                <span>Выполненных работ</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                +
+                <strong class="number" data-number="20">0</strong>
+                <span>Новых сотрудников</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="12">0</strong>
+                <span>лет на рынке</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 text-center">
+              <div class="text">
+                <strong class="number" data-number="146">5143</strong>
+                <span>процент увеличение оборота за год</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2>Мы заботимся о своих клиентах</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon mb-3"><img src="images/svg/dogovor.svg" alt=""></div>
+              <div class="media-body">
+                <h3 class="heading">Заключение договора</h3>
+                 <p>При заключении договора наши дизайнеры проектируют макет мебели по Вашим пожеланиям. Также можем изготовить по имеющемуся у вас дизайну.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon mb-3"><img src="images/svg/oplata.svg" alt=""></div>
+              <div class="media-body">
+                <h3 class="heading">Любые формы оплаты</h3>
+                <p>Мы принимаем к оплате наличные и банковские карты.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon mb-3"><img src="images/svg/design.svg" alt=""></div>
+              <div class="media-body">
+                <h3 class="heading">Индивидуальный дизайн</h3>
+                <p>Мы заботимся обо всем, особенно о дизайне проекте.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon mb-3"><img src="images/svg/delivery.svg" alt=""></div>
+              <div class="media-body">
+                <h3 class="heading">Бесплатная доставка</h3>
+                <p>Оперативная доставка и выгрузка товара</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon mb-3"><img src="images/svg/garantya.svg" alt=""></div>
+              <div class="media-body">
+                <h3 class="heading">Контроль качества и оформление гарантии</h3>
+                 <p>На каждом этапе производства  ведётся  контроль качества продукции, после установки оформляется гарантийный талон на изделие.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon mb-3"><img src="images/svg/factory.svg" alt=""></div>
+              <div class="media-body">
+                <h3 class="heading">Cобственное производство</h3>
+                <p>Современное техническое оснащение производства и квалифицированный персонал позволяют нам браться за самые нестандартные заказы, от которых отказались другие компании.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon mb-3"><img src="images/svg/worker.svg" alt=""></div>
+              <div class="media-body">
+                <h3 class="heading">Опытные мастера</h3>
+                <p>Мы собрали команду профессионалов. Минимальный стаж наших специалистов - от 5 лет! Они выполняют работу быстро, качественно, в срок!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon mb-3"><img src="images/svg/call.svg" alt=""></div>
+              <div class="media-body">
+                <h3 class="heading">Как с нами связаться </h3>
+                <p>Отправьте заявку на этом сайте. Для этого нажмите на кнопку Связаться с нами, укажите контактные данные, чтобы мы могли с вами связаться.</p>
+              </div>
+            </div>
+          </div>
+        </div> --
+      </div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2>Наши работы</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="carousel1 owl-carousel ftco-owl">
+            <div class="item">
+              <div class="blog-entry">
+                <a href="locker.html" class="block-20" style="background-image: url('images/image_9.jpg');">
+                </a>
+                <div class="text p-4">
+                  <div class="meta">
+
+                  </div>
+                  <h3 class="heading"><a href="locker.html">Эксклюзивная и корпусная мебель на заказ (кухни, шкафы, <br>гостиные, встроенная мебель и т.д.)</a></h3>
+                  <p class="clearfix">
+                    <a href="locker.html" class="float-left">Смотреть еще</a>
+                    <a href="locker.html" class="float-right meta-chat"><span class="icon-chat"></span> 3</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="blog-entry">
+                <a href="door.html" class="block-20" style="background-image: url('images/image_5.jpg');">
+                </a>
+                <div class="text p-4">
+                  <div class="meta">
+
+                  </div>
+                  <h3 class="heading"><a href="door.html">Двери любой сложности (межкомнатные, входные, металлические и тд.).</a></h3>
+                  <p class="clearfix">
+                    <a href="door.html" class="float-left">Смотреть еще</a>
+                    <a href="door.html" class="float-right meta-chat"><span class="icon-chat"></span> 3</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="blog-entry" data-aos-delay="100">
+                <a href="plactic.html" class="block-20" style="background-image: url('images/image_6.jpg');">
+                </a>
+                <div class="text p-4">
+                  <div class="meta">
+
+                  </div>
+                  <h3 class="heading"><a href="plactic.html">Пластиковые - алюминиевые изделия (окна, двери, витражи и т.д).</a></h3>
+                  <p class="clearfix">
+                    <a href="plactic.html" class="float-left">Смотреть еще</a>
+                    <a href="plactic.html" class="float-right meta-chat"><span class="icon-chat"></span> 3</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="blog-entry" data-aos-delay="200">
+                <a href="iron.html" class="block-20" style="background-image: url('images/image_7.jpg');">
+                </a>
+                <div class="text p-4">
+                  <div class="meta">
+
+                  </div>
+                  <h3 class="heading"><a href="iron.html">Изделия из металла (ворота, оградки, скамейки т.д.).</a></h3>
+                  <p class="clearfix">
+                    <a href="iron.html" class="float-left">Смотреть еще</a>
+                    <a href="iron.html" class="float-right meta-chat"><span class="icon-chat"></span> 3</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="blog-entry" data-aos-delay="200">
+                <a href="pricing.html" class="block-20" style="background-image: url('images/image_8.jpg');">
+                </a>
+                <div class="text p-4">
+                  <div class="meta">
+
+                  </div>
+                  <h3 class="heading"><a href="pricing.html">ЖБИ изделия (кольца, крышки, лотки).</a></h3>
+                  <p class="clearfix">
+                    <a href="pricing.html" class="float-left">Смотреть еще</a>
+                    <a href="pricing.html" class="float-right meta-chat"><span class="icon-chat"></span> 3</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="ftco-section cover_1" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-md-8 ftco-animate">
+            <p class="sub-heading mb-5"><b>GSS GROUP</b> — это прежде всего опытная команда профессионалов, знающих толк в производстве. Наша команда на рынке Казахстана более 10 лет.</p>
+            <p class="sub-heading mb-5">Собственное производство ГАРАНТИРУЕТ Вам Высокое качество,
+Приятные цены и Скорость нашей работы!</p>
+            <p><a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalRequest">Связаться с нами</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section testimony-section">
+      <div class="container-fluid">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2>Отзывы клиентов</h2>
+          </div>
+        </div>
+        <div class="row no-gutters ftco-animate">
+          <div class="carousel owl-carousel ftco-owl">
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)" style="border: 1px solid red;"></div>
+                <div class="text">
+                  <p class="mb-5">Изделия из цеха были высокого качества. Наша команда осталась довольными. Надеемься на дальнейшие сотрудничества.</p>
+                  <p class="name">Аскаров Мадияр</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)" style="border: 1px solid red;"></div>
+                <div class="text">
+                  <p class="mb-5">Хочу выразить благодарность, работникам Вашей компании за добросовестное исполнение своих обязанностей при исполнении моего заказа на изготовление, доставку и сборку мебели.</p>
+                  <p class="name">Иванова Мария</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)" style="border: 1px solid red;"></div>
+                <div class="text">
+                  <p class="mb-5">Заказывали прихожую в этой компании. Сделали на удивление быстро, мы так рано даже не ожидали. Все понравилось, спасибо вам большое!</p>
+                  <p class="name">Коробицына Вероника</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-4" style="background-image: url(images/person_4.jpg)" style="border: 1px solid red;"></div>
+                <div class="text">
+                  <p class="mb-5">Заказывали тут уже вторую кухню, первую маме вторую себе. Ребята слаженно работают, косяков не было, поставка в срок.
+    Второй раз брали для себя кухню, качество отличное)
+    Спасибо!</p>
+                  <p class="name">Болатов Галымбек</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="item text-center">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-4" style="background-image: url(images/person_5.jpg)" style="border: 1px solid red;"></div>
+                <div class="text">
+                  <p class="mb-5">Менеджеры компании с радостью отвечают на вопросы и производят расчет стоимости услуг и подготовят индивидуальное коммерческое предложение.  </p>
+                  <p class="name">Ерген Димаш</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">GSS GROUP</h2>
+            <p>Наша фабрика занимается производством эксклюзивной, корпусной мебели на заказ, а так же производит:<br><br>-Двери любой сложности (межкомнатные, входные, металлические и тд.). <br>-Пластиковые - алюминиевые изделия (окна, двери, витражи). <br>-Изделия из металла (ворота, оградки, скамейки т.д.). <br>-ЖБИ изделия (кольца, крышки, лотки).</p>
+          </div>
+        </div>
+        <div class="col-md">
+           <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Быстрые ссылки</h2>
+            <ul class="list-unstyled">
+              <li class="nav-item active"><a href="index.html" class="nav-link">Главная</a></li>
+              <li class="nav-item"><a href="services.html" class="nav-link">Услуги</a></li>
+              <li class="nav-item"><a href="door.html" class="nav-link">Мебель</a></li>
+              <li class="nav-item"><a href="door.html" class="nav-link">Двери</a></li>
+              <li class="nav-item"><a href="pricing.html" class="nav-link">Бетонные изделия</a></li>
+              <li class="nav-item"><a href="plastic.html" class="nav-link">Пластик. и алюм. изд.</a></li>
+              <li class="nav-item"><a href="iron.html" class="nav-link">Изделия из металла</a></li>
+              <li class="nav-item"><a href="blog.html" class="nav-link">Цех</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+           <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Контактная информация</h2>
+            <ul class="list-unstyled">
+              <li><a href="#" class="py-2 d-block">Г. Алматы - Талгар</a></li>
+              <li><a href="tel:+77088642554" class="py-2 d-block">+77088642554</a></li>
+              <li><a href="https://mail.google.com/mail/u/2/#inbox" class="py-2 d-block">gssgroup777@gmail.com</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <ul class="ftco-footer-social list-unstyled float-md-right float-lft">
+              <li class="ftco-animate"><a href="https://wa.me/77088642554?text=Здравствуйте, меня интересует...%20"><span class="icon-whatsapp"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/gss.group777/?ref=bookmarks"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/gss__group/"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+    <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAppointmentLabel">Связаться с нами</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="mail.php" method="POST">
+              <div class="form-group">
+                <label for="appointment_email" class="text-black">Закажите обратный звонок</label>
+                <input type="text" class="form-control" id="appointment_email" name="user_phone" placeholder="+7 (999) 99 99 999">
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Позвоните мне" class="btn btn-primary">
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  </body>
+</html>
